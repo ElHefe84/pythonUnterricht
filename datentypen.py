@@ -71,3 +71,39 @@ dictionary['a'] = 5
 dictionary['d'] = 4
 
 print(dictionary)
+
+boolean1 = True
+boolean2 = False
+
+boolean3 = boolean1 and boolean2
+boolean4 = boolean1 or boolean2
+boolean5 = not boolean1
+boolean6 = boolean1 != boolean2
+
+zahl1 = 0
+zahl2 = 2
+boolean7 = zahl1 == zahl2 # < <= > >=
+boolean8 = zahl1 != zahl2
+
+if zahl1 != zahl2:
+    print("Zahlen sind ungleich")
+    # ...
+else:
+    print("Zahlen sind gleich")
+
+if zahl1 == 2:
+    print("Zahl == 2")
+elif zahl1 == 0:
+    print("Zahl == 0")
+else:
+    print("Zahl ist anders")
+
+while zahl1 != zahl2:
+    print("Test")
+    zahl1 += 1
+
+for element in liste:
+    print(element)
+
+for i in range(10):
+    print(i)
